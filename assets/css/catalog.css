@@ -1,0 +1,87 @@
+p {
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+button {
+  cursor: pointer;
+  background-color: #22c55e;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.game-link {
+  height: 400px;
+  width: 300px;
+  text-decoration: none;
+}
+
+.game-tile {
+  background-color: #383333;
+  height: 330px;
+  width: 290px;
+  border-radius: 20px;
+  transition: transform 0.2s ease-in-out;
+  transition-duration: 0.4s;
+  padding-top: 20px;
+}
+
+.game-tile:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.game-icon {
+  border-radius: 20px;
+  width: 210px;
+  height: 210px;
+  display: block;
+  margin: 0 auto;
+}
+
+.game-title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin: 15px auto 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  order: 0;
+  flex-grow: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.gameblur {
+  background-color: rgba(100, 100, 100, 0.4) !important;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.background {
+  background: url(https://res.cloudinary.com/mayashavin/image/upload/w_500,f_auto,q_auto/v1597000013/examples/cat_relaxing) no-repeat center;
+  background-size: cover;
+}
