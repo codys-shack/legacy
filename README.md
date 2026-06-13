@@ -1,4 +1,4 @@
-# Cody's Shack (old)
+# Cody's Shack Legacy
 
 This repo is an ARCHIVED REPOSITORY, for the newer version of Cody's Shack, please visit [https://github.com/codys-shack](https://github.com/codys-shack)
 
