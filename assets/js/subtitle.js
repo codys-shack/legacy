@@ -52,7 +52,7 @@ function getRandomGreeting() {
     "Your toes will be pulled tonight", 
     "i do love buying birth certificates from the black market! - Piplup",
     "'If you are trash go play Fortnite you loser' - Sun Tzu, Art of war",
-    "Echo is not a furry I swear",
+    "Cody is not a furry I swear",
     "i wanted free vbucks :(",
     "Avocados \ud83e\udd51 from Mexico \ud83c\uddf2\ud83c\uddfd",
     "reload for another message",
