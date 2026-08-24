@@ -2,7 +2,6 @@
   transform: rotate(-7deg) translate(100px,-25px);
   color: yellow;
   animation: mymove 5s infinite;
-  font-family: Minecrafter;
 }
 
 @keyframes mymove {

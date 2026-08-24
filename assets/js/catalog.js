@@ -11,7 +11,7 @@ function initCatalog(jsonPath) {
         el.href = game.link;
         el.className = "game-link container";
         el.innerHTML = `
-          <div class="game-tile gameblur">
+          <div class="game-tile">
             <img class="game-icon" src="${game.imgSrc}" alt="icon" />
             <p class="game-title">${game.title}</p>
           </div>`;
@@ -34,7 +34,7 @@ function searchGames() {
       el.href = game.link;
       el.className = "game-link container";
       el.innerHTML = `
-        <div class="game-tile gameblur">
+        <div class="game-tile">
           <img class="game-icon" src="${game.imgSrc}" alt="icon" loading="lazy" />
           <p class="game-title">${game.title}</p>
         </div>`;
